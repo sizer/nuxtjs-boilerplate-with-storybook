@@ -17,6 +17,7 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint",
     "storybook": "start-storybook -p 6006",
+    "storybook:webpack": "start-storybook -p 6006 -c .storybook.webpack",
     "build-storybook": "build-storybook"
   },
   "dependencies": {
@@ -43,6 +44,7 @@
     "eslint-plugin-prettier": "2.6.2",
     "eslint-plugin-vue": "^4.0.0",
     "nodemon": "^1.11.0",
-    "prettier": "1.14.3"
+    "prettier": "1.14.3",
+    "vue-loader": "^15.6.2"
   }
 }
